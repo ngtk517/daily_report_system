@@ -26,5 +26,9 @@
 <textarea name="content" rows="10" cols="50">${report.content}</textarea>
 <br /><br />
 
+<label for="businessContent">商談状況</label><br />
+<textarea name="businessContent" rows="10" cols="50">${report.businessContent}</textarea>
+<br /><br />
+
 <input type="hidden" name="_token" value="${_token}" />
 <button type="submit">投稿</button>
